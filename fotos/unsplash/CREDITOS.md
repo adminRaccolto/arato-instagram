@@ -5,3 +5,4 @@
 - `4-caminhao-grao.jpg`: foto de Noah Klimpel no Unsplash (https://unsplash.com/photos/AqXUQ_uX4JA). A large truck driving down a street at night
 - `5-produtor-celular.jpg`: foto de David Cano Soriano no Unsplash (https://unsplash.com/photos/x11-YZWZmHA). a man sitting on a bench looking at his cell phone
 - `6-por-do-sol.jpg`: foto de Kelly Sikkema no Unsplash (https://unsplash.com/photos/6DNGQe6SL-c). silhouette of grass during sunset
+- `p2-escritorio-noite.jpg`: foto de LARAM no Unsplash (https://unsplash.com/photos/BpTqCNotBLI). a man sitting at a desk in front of a computer
