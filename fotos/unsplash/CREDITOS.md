@@ -6,3 +6,8 @@
 - `5-produtor-celular.jpg`: foto de David Cano Soriano no Unsplash (https://unsplash.com/photos/x11-YZWZmHA). a man sitting on a bench looking at his cell phone
 - `6-por-do-sol.jpg`: foto de Kelly Sikkema no Unsplash (https://unsplash.com/photos/6DNGQe6SL-c). silhouette of grass during sunset
 - `p2-escritorio-noite.jpg`: foto de LARAM no Unsplash (https://unsplash.com/photos/BpTqCNotBLI). a man sitting at a desk in front of a computer
+- `dc-tempestade.jpg`: foto de Dave Hoefler no Unsplash (https://unsplash.com/photos/suf2PfBNdx4). green grass under white clouds
+- `dc-produtor-preocupado.jpg`: foto de Kenan Sandifer no Unsplash (https://unsplash.com/photos/QT9qnNAJfkU). woman in blue denim jeans and brown plaid shirt sitting on g
+- `dc-plantadeira.jpg`: foto de Loren King no Unsplash (https://unsplash.com/photos/KUkTDE3JGiY). green tractor on green field during daytime
+- `dc-clareira.jpg`: foto de Lode Lambert no Unsplash (https://unsplash.com/photos/sKnZuiVAPvU). silhouette of trees
+- `dc-celular-lavoura.jpg`: foto de Richard Nyoni no Unsplash (https://unsplash.com/photos/1AoGjqdyDLU). A farmer tends to his crops in a green field

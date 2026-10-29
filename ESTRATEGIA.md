@@ -49,7 +49,7 @@ Regra de ouro: **no máximo 1 em cada 3 posts do feed é sobre o sistema em si**
   com crédito presumido para quem compra dele.
 - **Paralelo:** no sistema novo, crédito tributário vem de **nota fiscal bem registrada**. Nota perdida, lançada errado ou fora do estoque = crédito que some.
 - **Arato hoje:** busca automática das notas recebidas, NF-e/CT-e/MDF-e, entrada no estoque e conta a pagar a partir da nota, SPED Contábil, auditor de estoque fiscal × físico.
-- ❓ **Perguntar ao Gino:** o Arato já calcula/controla crédito de IBS/CBS, ou isso está no roadmap? Muda o tom do post de "base organizada" para "o Arato controla".
+- ✅ **Resposta do Gino (29/10):** o controle de crédito de IBS/CBS **ainda não existe, mas estará** no Arato. Até o lançamento, os posts falam de **base organizada** (notas, SPED, auditor) e **não** afirmam que o Arato controla créditos. Anunciar como "em breve" só com o OK do Gino.
 - Ideias de post:
   - Carrossel: "2027 chegou mais cedo do que você pensa: 5 perguntas que o produtor precisa responder agora"
   - Imagem: "Cada nota que se perde é crédito que vai embora."
@@ -103,7 +103,7 @@ Regra de ouro: **no máximo 1 em cada 3 posts do feed é sobre o sistema em si**
 - **Fundo:** demonstrações agendadas (o Gino informa) → a métrica que importa.
 
 ## 7. Pendências para destravar
-1. ❓ O Arato tem (ou terá) controle de crédito IBS/CBS? Previsão?
+1. ✅ IBS/CBS: virá no Arato (sem data). Perguntar a previsão antes de anunciar.
 2. HeyGen: o Gino topa gravar o material-base e assinar o plano com API?
 3. Conectar o Meta Ads no Windsor.ai + verba mensal.
 4. Prova social: algum cliente autoriza depoimento?

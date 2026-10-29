@@ -25,6 +25,15 @@ posts.post02 = [
     chips: [['#3B82C4', '<b>Azul:</b> o sistema fez sozinho'], [M, '<b>Mostarda:</b> você fez, com um clique']] },
 ];
 
+// Série "Dinheiro caro" (pilar Momento do agro). Sem valores explícitos: o custo aparece pelo contexto.
+posts.post03 = [
+  { foto: 'dc-tempestade', pos: '50% 85%', titulo: 'Dinheiro caro *não perdoa* quem decide no escuro.', apoio: 'Câmbio em alta, juros pressionados. O momento pede clareza. Arraste 👉' },
+  { foto: 'dc-produtor-preocupado', pos: '50% 45%', titulo: 'O dólar sobe.<br>*Sua dívida sobe junto.*', apoio: 'Você percebe na hora, ou só quando chega o vencimento?' },
+  { foto: 'dc-plantadeira', pos: '50% 50%', titulo: 'Com juro alto, *cada decisão errada* custa mais.', apoio: 'Comprar na hora errada. Vender na pressa. Renegociar sem conhecer o próprio caixa.' },
+  { foto: 'dc-celular-lavoura', pos: '30% 50%', titulo: 'Clareza é saber *hoje* o que vence amanhã.', apoio: 'Dívida em dólar atualizada pela PTAX, endividamento ano a ano e fluxo de caixa. Tudo num lugar só.' },
+  { foto: 'dc-clareira', pos: '50% 50%', final: true, titulo: 'Falta de clareza *custa caro.*', apoio: 'Arato. Clareza para decidir.' },
+];
+
 const html = (s, i, n) => {
   const t = s.titulo.replace(/\*(.+?)\*/g, `<em>$1</em>`);
   return `<!doctype html><html><head><meta charset="utf-8"><style>
