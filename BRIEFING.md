@@ -29,9 +29,10 @@ A versão só com texto e ícones foi reprovada ("ta bem ruim"). Ele quer **imag
 
 **Novo estilo:** foto em tela cheia (lavoura, colheitadeira, caminhão graneleiro, silo, produtor) + degradê escuro embaixo, título grande e provocativo com a palavra-chave em mostarda (#C9921B), uma ideia por slide, logo pequena no canto (`marca/cores/branco/solido/logo_sem_fundo.png`).
 
-**Busca de fotos (como fazer):** usar a API oficial do Pexels com a variável de ambiente `PEXELS_API_KEY`
-(`curl -H "Authorization: $PEXELS_API_KEY" "https://api.pexels.com/v1/search?query=soybean%20field&per_page=30&orientation=portrait"`),
-baixar de `images.pexels.com`. Domínios liberados no ambiente: `api.pexels.com`, `images.pexels.com`, `images.unsplash.com`.
+**Busca de fotos (como fazer):** API oficial do Unsplash (`https://api.unsplash.com/search/photos`, header `Authorization: Client-ID <Access Key>`).
+A Access Key NÃO fica no repositório (é público): use a variável de ambiente `UNSPLASH_ACCESS_KEY` ou peça ao Gino. A Pexels pausou novas chaves.
+Domínios liberados: `api.unsplash.com`, `images.unsplash.com`, `unsplash.com`, `images.pexels.com`. Fotos usadas ficam em `fotos/unsplash/` com `CREDITOS.md`.
+**Post 1 v2 (com fotos) feito**: `scripts/render-foto.js` gera `post01/`.
 As páginas de busca do unsplash.com e do www.pexels.com têm proteção anti-robô: não tentar contornar.
 
 **Fotos:** o Gino ainda não tem fotos próprias. Usar Unsplash/Pexels (licença livre p/ uso comercial). A rede do ambiente precisa liberar `unsplash.com`, `images.unsplash.com`, `www.pexels.com`, `images.pexels.com`. Quando houver fotos próprias, elas vão para `fotos/` e têm prioridade. Não usar fazenda/cliente identificável sem autorização.
