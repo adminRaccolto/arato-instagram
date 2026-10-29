@@ -29,6 +29,11 @@ A versão só com texto e ícones foi reprovada ("ta bem ruim"). Ele quer **imag
 
 **Novo estilo:** foto em tela cheia (lavoura, colheitadeira, caminhão graneleiro, silo, produtor) + degradê escuro embaixo, título grande e provocativo com a palavra-chave em mostarda (#C9921B), uma ideia por slide, logo pequena no canto (`marca/cores/branco/solido/logo_sem_fundo.png`).
 
+**Busca de fotos (como fazer):** usar a API oficial do Pexels com a variável de ambiente `PEXELS_API_KEY`
+(`curl -H "Authorization: $PEXELS_API_KEY" "https://api.pexels.com/v1/search?query=soybean%20field&per_page=30&orientation=portrait"`),
+baixar de `images.pexels.com`. Domínios liberados no ambiente: `api.pexels.com`, `images.pexels.com`, `images.unsplash.com`.
+As páginas de busca do unsplash.com e do www.pexels.com têm proteção anti-robô: não tentar contornar.
+
 **Fotos:** o Gino ainda não tem fotos próprias. Usar Unsplash/Pexels (licença livre p/ uso comercial). A rede do ambiente precisa liberar `unsplash.com`, `images.unsplash.com`, `www.pexels.com`, `images.pexels.com`. Quando houver fotos próprias, elas vão para `fotos/` e têm prioridade. Não usar fazenda/cliente identificável sem autorização.
 
 **Texto novo do post 1 (carrossel):**
