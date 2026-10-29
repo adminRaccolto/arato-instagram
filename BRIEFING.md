@@ -24,6 +24,10 @@ Windsor.ai (`instagram`, conta id 17841415277073796) publica com `create_carouse
 - Logo: recebida em `marca/` (kit completo: azul, branco, mostarda; sólido e contorno). Artes usam `marca/` via scripts/render.js.
 - Pendente de resposta: a Raccolto tem Instagram? Pode usar a história dos nomes/oliveira?
 
+## Publicados
+- **Post 1** (carrossel 6 slides, v2 com fotos): publicado em 29/10/2026 18:59 (horário de Brasília). https://www.instagram.com/p/DfGBz9YCHqA/ (media_id 18109428860579151)
+- Observação: `execute_action` do carrossel deu timeout de 60s no MCP, mas o post foi publicado. **Antes de tentar de novo após um timeout, confira `media_count`/`media_id` para não duplicar.**
+
 ## Feedback do Gino sobre o post 1 (29/10) → REFAZER
 A versão só com texto e ícones foi reprovada ("ta bem ruim"). Ele quer **imagens mais vivas, fotos de campo e de agricultor, textos provocativos**.
 
