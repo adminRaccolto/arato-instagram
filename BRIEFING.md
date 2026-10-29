@@ -24,6 +24,21 @@ Windsor.ai (`instagram`, conta id 17841415277073796) publica com `create_carouse
 - Logo: recebida em `marca/` (kit completo: azul, branco, mostarda; sólido e contorno). Artes usam `marca/` via scripts/render.js.
 - Pendente de resposta: a Raccolto tem Instagram? Pode usar a história dos nomes/oliveira?
 
+## Feedback do Gino sobre o post 1 (29/10) → REFAZER
+A versão só com texto e ícones foi reprovada ("ta bem ruim"). Ele quer **imagens mais vivas, fotos de campo e de agricultor, textos provocativos**.
+
+**Novo estilo:** foto em tela cheia (lavoura, colheitadeira, caminhão graneleiro, silo, produtor) + degradê escuro embaixo, título grande e provocativo com a palavra-chave em mostarda (#C9921B), uma ideia por slide, logo pequena no canto (`marca/cores/branco/solido/logo_sem_fundo.png`).
+
+**Fotos:** o Gino ainda não tem fotos próprias. Usar Unsplash/Pexels (licença livre p/ uso comercial). A rede do ambiente precisa liberar `unsplash.com`, `images.unsplash.com`, `www.pexels.com`, `images.pexels.com`. Quando houver fotos próprias, elas vão para `fotos/` e têm prioridade. Não usar fazenda/cliente identificável sem autorização.
+
+**Texto novo do post 1 (carrossel):**
+1. [produtor olhando lavoura de soja] "Quanto custou cada saca que você colheu?" Se você precisou abrir três planilhas para responder, continua 👉
+2. [colheitadeira] "Máquina de última geração no campo. Planilha de 2009 no escritório."
+3. [papéis/notas] "A mesma nota digitada 3 vezes." Na NF. No estoque. No financeiro. E quem paga o retrabalho é você.
+4. [caminhão carregando grão] "Quanto da sua safra já tem dono?" Contrato, barter, arrendamento. Se não sabe em 10 segundos, seu sistema está falhando com você.
+5. [produtor com celular na lavoura] "Sua dívida em dólar mudou hoje. Você já sabe quanto?" No Arato, ela é convertida pela PTAX, sozinha.
+6. [pôr do sol na lavoura + logo] "Arato. O sistema que trabalha pelo produtor." Feito por quem vive a fazenda, em Nova Mutum-MT. 👉 Agende uma demonstração: link na bio.
+
 ## Plano dos 9 primeiros posts
 | # | Formato | Tema |
 |---|---|---|
