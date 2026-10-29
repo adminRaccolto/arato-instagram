@@ -17,9 +17,9 @@ Fórmula de todo post de contexto:
 Além de alertar e engajar, **todo post precisa deixar o produtor sentindo no bolso** o custo de não ter clareza.
 - Mostrar o **mecanismo do prejuízo**: multa e juros por atraso, crédito tributário perdido, venda na hora errada,
   dívida em dólar que cresce sem ninguém ver, insumo comprado sem saber o custo, retrabalho, decisão por impulso.
-- **Conta de exemplo** é permitida e recomendada, desde que **rotulada como exemplo/simulação**, com valores redondos e
-  aritmética transparente (ex.: "Exemplo: dívida de US$ 1 milhão. Cada R$ 0,10 a mais no dólar = R$ 100 mil a mais de dívida.").
-- **Proibido**: dados apresentados como fato sem fonte ("produtores perdem 15%…"), promessas de economia ("economize X%").
+- **SEM valores explícitos** (orientação do Gino, 29/10): nada de contas de exemplo, R$, % ou cifras. O custo aparece pelo **contexto e pela consequência**
+  ("a dívida em dólar sobe junto", "o crédito que some", "a venda feita na pressa"), não por números.
+- **Proibido**: dados apresentados como fato sem fonte, promessas de economia.
 - Fechamento padrão: **"Falta de clareza custa caro. Arato. Clareza para decidir."**
 
 ## 2. Mix de conteúdo (por mês)
