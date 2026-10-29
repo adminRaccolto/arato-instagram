@@ -2,6 +2,10 @@
 
 > Leia este arquivo inteiro antes de criar qualquer conteúdo.
 
+> **ALCANCE NACIONAL (orientação do Gino, 29/10/2026):** a comunicação é para produtores de grãos do Brasil inteiro, não só de Nova Mutum/MT.
+> Falar com MT, GO, MS, PR, RS, BA/MATOPIBA etc. Nova Mutum aparece no máximo como **origem** da Raccolto (bastidores), nunca como limite de público.
+> Hashtags e anúncios: segmentação nacional. Evitar "cara de MT" exclusiva; usar linguagem do produtor de grãos brasileiro.
+
 ## Fluxo de trabalho
 Claude cria a arte (scripts/render.js, HTML → JPEG via Playwright) → commit/push neste repositório (público) →
 link direto `https://raw.githubusercontent.com/adminRaccolto/arato-instagram/main/<caminho>.jpg` →
@@ -73,7 +77,7 @@ As páginas de busca do unsplash.com e do www.pexels.com têm proteção anti-ro
 - Nomes: Raccolto = colheita (italiano); arato lembra arado. Logo inspirada na oliveira. *Confirmar antes de usar em post.*
 
 ### Público
-Produtor de soja, milho e algodão em MT (Nova Mutum, Lucas do Rio Verde, Sorriso), médio a grande, muitas vezes grupo familiar com várias fazendas/CPFs/CNPJs.
+Produtor de soja, milho e algodão **de todo o Brasil** (o briefing original citava MT: Nova Mutum, Lucas do Rio Verde, Sorriso; ver ALCANCE NACIONAL), médio a grande, muitas vezes grupo familiar com várias fazendas/CPFs/CNPJs.
 - Dono: lucro da safra, quanto deve, a receber, grão comprometido.
 - Gerente/administrativo: notas, contas, estoque, NF de venda; sofre com retrabalho.
 - Contador: recebe LCDPR e SPED prontos.
@@ -93,7 +97,7 @@ Dores: planilha pra tudo; sistema desktop num PC só; lançar a mesma informaç�
 - **Complementos pagos à parte:** App Campo (funciona sem internet, gestor aprova depois); IA que lê PDF de cédula de crédito e preenche contrato e parcelas; Módulo Algodão (bicudo, módulos, beneficiamento, HVI); Hedge/proteção de margem (ferramenta do consultor Raccolto).
 
 ### Tom de voz
-Direto, prático, de quem é do campo, sem tecniquês. Palavras do produtor: saca, safra, talhão, romaneio, barter, arrendamento, custeio, LCDPR, nota. Problema primeiro, solução depois. Sem "revolucionário", "o melhor do Brasil" ou economia sem número real. Frases curtas, cara de MT. Emoji com moderação (🌱🚜🌽).
+Direto, prático, de quem é do campo, sem tecniquês. Palavras do produtor: saca, safra, talhão, romaneio, barter, arrendamento, custeio, LCDPR, nota. Problema primeiro, solução depois. Sem "revolucionário", "o melhor do Brasil" ou economia sem número real. Frases curtas, linguagem do produtor de grãos brasileiro (alcance nacional). Emoji com moderação (🌱🚜🌽).
 
 ### Identidade visual
 | Cor | Hex | Uso |

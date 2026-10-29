@@ -16,7 +16,7 @@ const post01 = [
   { foto: '3-papeis', pos: '50% 50%', titulo: 'A mesma nota digitada *3 vezes.*', apoio: 'Na NF. No estoque. No financeiro.<br>E quem paga o retrabalho é você.' },
   { foto: '4-caminhao-grao', pos: '55% 50%', titulo: 'Quanto da sua safra *já tem dono?*', apoio: 'Contrato, barter, arrendamento. Se você não sabe em 10 segundos, seu sistema está falhando com você.' },
   { foto: '5-produtor-celular', pos: '50% 35%', titulo: 'Sua dívida em dólar *mudou hoje.*<br>Você já sabe quanto?', apoio: 'No Arato, ela é convertida pela PTAX. Sozinha.' },
-  { foto: '6-por-do-sol', pos: '60% 50%', final: true, titulo: 'O sistema que *trabalha pelo produtor.*', apoio: 'Feito por quem vive a fazenda, em Nova&nbsp;Mutum&#8209;MT.' },
+  { foto: '6-por-do-sol', pos: '60% 50%', final: true, titulo: 'O sistema que *trabalha pelo produtor.*', apoio: 'Feito por quem vive a fazenda. Para produtores de grãos de todo o Brasil.' },
 ];
 
 const html = (s, i, n) => {
