@@ -11,7 +11,16 @@ Cada post parte de algo que o produtor está sentindo agora (tributo, juro, câm
 só depois mostra como uma gestão organizada, e o Arato, muda o jogo. O sistema é a consequência, não o assunto.
 
 Fórmula de todo post de contexto:
-**Fato do momento → o risco para quem decide no escuro → o que muda com informação organizada → o Arato (leve) → CTA.**
+**Fato do momento → quanto a falta de clareza CUSTA → o que muda com informação organizada → o Arato (leve) → CTA.**
+
+### Princípio obrigatório: "falta de clareza custa dinheiro" (orientação do Gino)
+Além de alertar e engajar, **todo post precisa deixar o produtor sentindo no bolso** o custo de não ter clareza.
+- Mostrar o **mecanismo do prejuízo**: multa e juros por atraso, crédito tributário perdido, venda na hora errada,
+  dívida em dólar que cresce sem ninguém ver, insumo comprado sem saber o custo, retrabalho, decisão por impulso.
+- **Conta de exemplo** é permitida e recomendada, desde que **rotulada como exemplo/simulação**, com valores redondos e
+  aritmética transparente (ex.: "Exemplo: dívida de US$ 1 milhão. Cada R$ 0,10 a mais no dólar = R$ 100 mil a mais de dívida.").
+- **Proibido**: dados apresentados como fato sem fonte ("produtores perdem 15%…"), promessas de economia ("economize X%").
+- Fechamento padrão: **"Falta de clareza custa caro. Arato. Clareza para decidir."**
 
 ## 2. Mix de conteúdo (por mês)
 | Pilar | % | O que é | Formato principal |
