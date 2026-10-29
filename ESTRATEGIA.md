@@ -4,6 +4,8 @@
 > "Falar do sistema é bom, mas só dele não. Trazer o contexto do momento do agro e fazer paralelos."
 
 ## 1. Ideia central
+> ✅ Aprovada pelo Gino ("amei"). Assinatura de marca em teste: **"Arato. Clareza para decidir."**
+
 **O Arato não vende software. Vende clareza num momento em que o agro não perdoa achismo.**
 Cada post parte de algo que o produtor está sentindo agora (tributo, juro, câmbio, margem, pressão) e
 só depois mostra como uma gestão organizada, e o Arato, muda o jogo. O sistema é a consequência, não o assunto.
