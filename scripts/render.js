@@ -1,5 +1,13 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..');
+const img = f => `data:image/png;base64,${fs.readFileSync(path.join(ROOT, 'marca', f)).toString('base64')}`;
+const LOGO = {
+  cor: img('logo_completo_transparente_1080.png'),
+  branco: img('cores/branco/solido/logo_sem_fundo.png'),
+  simboloBranco: img('cores/branco/solido/simbolo_sem_fundo.png'),
+};
 const OUT = require('path').resolve(__dirname, '..');
 const C = { petroleo:'#1A4870', escuro:'#0B2D50', claro:'#D5E8F5', mostarda:'#C9921B', mostClaro:'#FBF3E0', fundo:'#F4F6FA', verde:'#16A34A' };
 
@@ -33,9 +41,7 @@ const destaques = [
 
 // ---------- Carrossel post 1 (1080x1350) ----------
 const W=1080,H=1350;
-const marca = (cor) => `<div style="position:absolute;left:84px;bottom:72px;display:flex;align-items:center;gap:14px">
-  <div style="width:40px;height:40px">${icons.arato(cor)}</div>
-  <div class="disp" style="font-size:34px;font-weight:700;letter-spacing:-0.5px;color:${cor}">arato</div></div>`;
+const marca = (cor) => `<img src="${cor === '#fff' ? LOGO.branco : LOGO.cor}" style="position:absolute;left:84px;bottom:64px;height:64px">`;
 const pag = (n,cor) => `<div style="position:absolute;right:84px;bottom:80px;font-size:26px;font-weight:600;color:${cor};opacity:.7">${n}/6</div>`;
 const css = `
 .slide{position:relative;width:${W}px;height:${H}px;padding:120px 84px}
@@ -54,7 +60,7 @@ const slides = [
   <h1 style="font-size:112px;margin-top:28px;color:#fff;opacity:.55">Sistema que só<br>abre num PC.</h1>
   <h1 style="font-size:124px;margin-top:56px;color:${C.mostarda}">Tem outro<br>jeito.</h1>
   <div style="position:absolute;right:84px;bottom:78px;font-size:30px;font-weight:600;color:${C.claro}">arraste →</div>
-  <div style="position:absolute;left:84px;bottom:72px;display:flex;align-items:center;gap:14px"><div style="width:40px;height:40px">${icons.arato('#fff')}</div><div class="disp" style="font-size:34px;font-weight:700;color:#fff">arato</div></div>
+  ${marca('#fff')}
 </div>`,
 // 2 dor
 `<div class="slide" style="background:${C.fundo}">
@@ -71,7 +77,7 @@ const slides = [
 // 3 conheça
 `<div class="slide" style="background:${C.petroleo};color:#fff;padding-top:200px">
   <div class="kicker" style="color:${C.mostarda}">Prazer,</div>
-  <h1 style="font-size:180px;margin-top:20px;letter-spacing:-6px">Arato.</h1>
+  <img src="${LOGO.branco}" style="height:230px;margin-top:28px;margin-left:-6px">
   <p style="font-size:52px;line-height:1.25;font-weight:600;margin-top:48px;max-width:860px">Sistema de gestão para fazendas de <span style="color:${C.mostarda}">soja, milho e algodão</span>.</p>
   <p style="font-size:40px;line-height:1.35;margin-top:40px;color:${C.claro};max-width:860px">100% na web: acesse da fazenda, da cidade ou de onde estiver. Várias fazendas e CPFs/CNPJs na mesma conta.</p>
   ${marca('#fff')}${pag(3,'#fff')}
@@ -113,7 +119,7 @@ const slides = [
     <div style="font-size:54px;font-weight:800;line-height:1.12;color:#fff">Veja o Arato com os números da sua fazenda.</div>
     <div style="font-size:36px;font-weight:600;margin-top:22px;color:${C.escuro}">Agende uma demonstração: link na bio 👆</div>
   </div>
-  <div style="position:absolute;left:84px;bottom:72px;display:flex;align-items:center;gap:14px"><div style="width:40px;height:40px">${icons.arato('#fff')}</div><div class="disp" style="font-size:34px;font-weight:700;color:#fff">@arato.agr</div></div>
+  <div style="position:absolute;left:84px;bottom:64px;display:flex;align-items:center;gap:28px">${`<img src="${LOGO.branco}" style="height:64px">`}<div style="font-size:32px;font-weight:600;color:${C.claro}">@arato.agr</div></div>
   ${pag(6,'#fff')}
 </div>`,
 ];
@@ -122,8 +128,9 @@ const slides = [
   const b = await chromium.launch();
   const p = await b.newPage();
   for (const [name,ic,bg,fg] of destaques){
+    const art = ic === 'arato' ? `<img src="${LOGO.simboloBranco}" style="width:100%;height:100%;object-fit:contain">` : icons[ic](fg);
     await p.setViewportSize({width:1080,height:1920});
-    await p.setContent(base(1080,1920,`<div style="width:1080px;height:1920px;background:${bg};display:flex;align-items:center;justify-content:center"><div style="width:470px;height:470px">${icons[ic](fg)}</div></div>`));
+    await p.setContent(base(1080,1920,`<div style="width:1080px;height:1920px;background:${bg};display:flex;align-items:center;justify-content:center"><div style="width:470px;height:470px">${art}</div></div>`));
     await p.screenshot({path:`${OUT}/destaques/${name}.jpg`,type:'jpeg',quality:92});
   }
   await p.setViewportSize({width:W,height:H});

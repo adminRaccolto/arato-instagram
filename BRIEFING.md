@@ -21,7 +21,7 @@ Windsor.ai (`instagram`, conta id 17841415277073796) publica com `create_carouse
   com título "Agende uma demonstração", botão de WhatsApp, e última linha da bio → "👇 Fale com a gente no WhatsApp".
 - Meta Ads (conector `facebook`) **ainda não conectado** no Windsor.ai; verba de anúncio não definida.
 - Feito: post 1 (carrossel 6 slides) em `post01/` + legenda; 7 capas de destaque em `destaques/`. **Não publicados.**
-- Logo: ainda não recebida. Artes usam um broto provisório + "arato". Trocar quando chegar.
+- Logo: recebida em `marca/` (kit completo: azul, branco, mostarda; sólido e contorno). Artes usam `marca/` via scripts/render.js.
 - Pendente de resposta: a Raccolto tem Instagram? Pode usar a história dos nomes/oliveira?
 
 ## Plano dos 9 primeiros posts
