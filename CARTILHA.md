@@ -74,7 +74,7 @@ Citar a fonte no post (ex.: "Fonte: Canal Rural, 30/10"). Outras fontes só com 
 - **Canal: app do Claude** (decisão de 30/10). WhatsApp fica para uma fase 2, se valer a pena configurar a API oficial.
 - Sem aprovação até o horário de publicação → **não publica** (a peça fica para a próxima janela ou é descartada).
 
-## 12. Vídeos
+## 11. Vídeos
 **Volume:** 3 vídeos por semana (Reels), dentro dos 4 posts semanais de feed. Stories podem ter vídeo curto.
 
 **Quatro tipos, combinados livremente** (um vídeo pode usar um ou vários):
@@ -91,7 +91,7 @@ Citar a fonte no post (ex.: "Fonte: Canal Rural, 30/10"). Outras fontes só com 
 - Sem música da biblioteca do Instagram (indisponível via API): sem trilha ou com trilha livre de direitos embutida.
 - Gravação de tela só com **dados fictícios**; nunca acessar dados de clientes reais.
 
-## 11. Não fazer (herdado do BRIEFING)
+## 12. Não fazer (herdado do BRIEFING)
 Citar concorrentes pelo nome · citar clientes/fazendas sem autorização · prometer função que o Arato não tem
 (ex.: crédito IBS/CBS ainda não existe) · dizer que a IA do produto é "Claude" (é Arato/Olívia) · falar de preço sem perguntar.
 
