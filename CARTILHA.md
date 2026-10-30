@@ -71,7 +71,7 @@ Citar a fonte no post (ex.: "Fonte: Canal Rural, 30/10"). Outras fontes só com 
 
 ## 10. Aprovação
 - Claude produz → **envia para aprovação** → Gino aprova → Windsor.ai publica no horário.
-- **Canal:** WhatsApp do Gino; enquanto o WhatsApp não estiver configurado, **notificação do app do Claude**.
+- **Canal: app do Claude** (decisão de 30/10). WhatsApp fica para uma fase 2, se valer a pena configurar a API oficial.
 - Sem aprovação até o horário de publicação → **não publica** (a peça fica para a próxima janela ou é descartada).
 
 ## 11. Não fazer (herdado do BRIEFING)
