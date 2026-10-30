@@ -1,5 +1,5 @@
 # Cartilha de ação: @arato.agr
-> Base de decisão para tudo o que for criado e publicado. Versão 0.2 (30/10/2026), em construção com o Gino.
+> Base de decisão para tudo o que for criado e publicado. Versão 0.3 (30/10/2026), em construção com o Gino.
 > Ordem de leitura numa sessão nova: **CARTILHA.md → BRIEFING.md → ESTRATEGIA.md**. Em caso de conflito, vale a CARTILHA.
 
 ## 1. Missão
@@ -74,12 +74,32 @@ Citar a fonte no post (ex.: "Fonte: Canal Rural, 30/10"). Outras fontes só com 
 - **Canal: app do Claude** (decisão de 30/10). WhatsApp fica para uma fase 2, se valer a pena configurar a API oficial.
 - Sem aprovação até o horário de publicação → **não publica** (a peça fica para a próxima janela ou é descartada).
 
+## 12. Vídeos
+**Volume:** 3 vídeos por semana (Reels), dentro dos 4 posts semanais de feed. Stories podem ter vídeo curto.
+
+**Quatro tipos, combinados livremente** (um vídeo pode usar um ou vários):
+| Tipo | Uso | Voz | Quem produz |
+|---|---|---|---|
+| **1. Notícia animada** | Notícia do dia: foto com zoom lento, texto animado, legenda | Arato (texto na tela) | Claude (ffmpeg), 100% automático |
+| **2. Avatar do consultor (HeyGen)** | **Somente** assuntos técnicos de consultoria e uso do Arato | Consultor (avatar, sinalizado como IA) | Claude escreve o roteiro → HeyGen gera |
+| **3. Gino gravando** | Análise, opinião, crítica política, notícia quente, **e** consultoria técnica em gestão (não só Arato), para gerar engajamento | Consultor (real) | Claude escreve o roteiro → Gino grava (mais de 1 por semana) |
+| **4. Tela do Arato** | Jornada de um usuário real: **cadastro → auto implantação → parametrização → uso** | Arato | Claude se cadastra no Arato com **fazenda fictícia** e grava a tela |
+
+**Regras:**
+- **Avatar nunca em crítica política nem opinião**: isso é só com o Gino real.
+- Legenda na tela em todo vídeo (a maioria assiste sem som). Formato 9:16, gancho nos 2 primeiros segundos, de 20 a 60 s.
+- Sem música da biblioteca do Instagram (indisponível via API): sem trilha ou com trilha livre de direitos embutida.
+- Gravação de tela só com **dados fictícios**; nunca acessar dados de clientes reais.
+
 ## 11. Não fazer (herdado do BRIEFING)
 Citar concorrentes pelo nome · citar clientes/fazendas sem autorização · prometer função que o Arato não tem
 (ex.: crédito IBS/CBS ainda não existe) · dizer que a IA do produto é "Claude" (é Arato/Olívia) · falar de preço sem perguntar.
 
-## 12. Pendências para fechar a v1.0
+## 13. Pendências para fechar a v1.0
 1. **WhatsApp para aprovações:** exige a API oficial do WhatsApp (Meta), com número remetente dedicado e token guardado no ambiente. Fase 2; até lá, app do Claude.
 2. **Liberar no ambiente os sites das fontes** (Gino vai liberar) e testar a leitura de cada uma (Valor tem paywall; Barchart pode ter proteção anti-robô).
 3. **Stories com enquete/link:** a API não permite figurinhas interativas. Stories automáticos só com imagem/vídeo; enquetes manuais pelo Gino.
 4. **Agendar as varreduras** (tarefas agendadas 07h/13h/17h) somente após o OK do Gino.
+5. **HeyGen via API:** o Gino já tem conta. Confirmar se o plano inclui **acesso à API**, e se o avatar e a voz em PT-BR já estão criados. Chave em `HEYGEN_API_KEY` (variável de ambiente, nunca no chat); liberar `api.heygen.com` e o domínio de download dos vídeos.
+6. **Conta de demonstração no Arato:** liberar `web.arato.agr.br` no ambiente; definir como o Claude se cadastra (e-mail para confirmação de cadastro?). Credenciais em variáveis de ambiente.
+7. **Envio dos vídeos gravados pelo Gino:** definir o canal (GitHub aceita até 25 MB por arquivo pelo navegador).
