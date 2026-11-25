@@ -1,0 +1,6 @@
+# Quadros iniciais (Unsplash License)
+- `cena1-plantadeira.jpg`: Hannah Shedrow (https://unsplash.com/photos/PoisoMav1Jg)
+- `cena2-plantulas.jpg`: Hannah Shedrow (https://unsplash.com/photos/EKaNVfRlYRU)
+- `cena3-lavoura.jpg`: Mihajlo Sivč (https://unsplash.com/photos/jUM_LTQfLY4)
+- `cena4-janela.jpg`: Ria Huang (https://unsplash.com/photos/Q0lIam16llQ)
+- `cena5-escritorio.jpg`: kimia kazemi (https://unsplash.com/photos/GqSBI0hwVX8)
